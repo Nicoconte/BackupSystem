@@ -116,7 +116,7 @@ public class Login extends javax.swing.JFrame {
 
     private void crearUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_crearUsuarioActionPerformed
        
-        //Make it more readable
+        
         Boolean exist = operation.ifUserExist(rs, conn, name.getText());
         
         if(exist){
@@ -131,7 +131,7 @@ public class Login extends javax.swing.JFrame {
 
     private void iniciarSesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_iniciarSesionActionPerformed
         
-        //TODO: Try to simplify this
+        
         Pair<String, Boolean> pair = operation.logUser(rs, conn, name.getText(), 
                                                        password.getText());
         String   entryName   = pair.getKey();
