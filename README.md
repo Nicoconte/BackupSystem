@@ -1,6 +1,16 @@
 # BackupSystem
-Sistema hecho en Java:
-"La aplicacion tiene el proposito de almacenar las imagenes que tu quieras y darte la
-posibilidad de administrarlas! Su uso es sencillo."
+Sistema de guardado y gestion de imagenes.
+
+Tecnologias:
+- Java
+- Java Swing (Componentes)
+- MySQL
+
+Funciones:
+- Crear usuario
+- Iniciar sesion
+- Guardar imagenes
+- Descargar imagenes
+- Eliminar imagen
 
 
